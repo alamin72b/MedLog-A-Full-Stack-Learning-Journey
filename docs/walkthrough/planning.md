@@ -183,7 +183,7 @@ git push
 
 Once complete, link it here:
 
-> 📄 [View Final Requirements Document](../../planning/requirements.md)
+> 📄 [View Final Requirements Document](../../docs/planning/requirements.md)
 
 ---
 
