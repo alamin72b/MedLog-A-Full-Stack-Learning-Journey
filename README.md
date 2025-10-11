@@ -16,6 +16,7 @@ I’m documenting every step to make it easy for beginners to follow along and l
 
 - [What is MedLog?](#-what-is-medlog)
 - [Why This Project?](#-why-this-project)
+- [Project Structure](#-project-structure)
 - [Features](#-features)
 - [How to Follow Along](#-how-to-follow-along)
 - [Tech Stack](#️-tech-stack)
@@ -58,6 +59,40 @@ Every commit, diagram, and doc in this repo serves as a **learning resource** fo
 
 ---
 
+## 🗂 Project Structure
+
+```
+
+MedLog/
+├── .gitignore
+├── README.md                   # Main intro (includes walkthrough references)
+├── docs/
+│   ├── planning/
+│   │   └── requirements.md     # Requirements and feature plan
+│   ├── design/                 # For later phases
+│   │   ├── wireframes/
+│   │   ├── api-design.md
+│   │   └── database-schema.md
+│   └── walkthrough/            # Step-by-step documentation
+│       └── planning.md         # Walkthrough for Step 1
+├── frontend/                   # React frontend code
+│   ├── ...
+├── backend/                    # Express/Node backend code
+│   ├── ...
+├── scripts/                    # Optional helper scripts
+│   └── ...
+├── tests/                      # Testing folder
+└── config/                     # Environment/config files
+└── ...
+
+````
+
+📘 **Walkthrough:** [docs/walkthrough/planning.md](https://github.com/alamin72b/MegLog-A-Full-Stack-Learning-Journey/blob/main/docs/walkthrough/planning.md)
+
+> Each walkthrough file explains what I did in that phase, the thought process, and how to replicate it — making this repo a complete learning guide.
+
+---
+
 ## 🛠 Features
 
 | Feature | Description |
@@ -78,10 +113,10 @@ Every commit, diagram, and doc in this repo serves as a **learning resource** fo
 Each commit represents a milestone, e.g.,  
 > “Add requirements document” or “Implement login API.”
 
-Explore commits to see the real progression of development.
-
 ### 📄 2. Read Documentation
-Files like `requirements.md` explain what I’m building, why, and how.
+You can explore detailed documentation and phase-based walkthroughs:
+- 📘 [Planning Walkthrough](https://github.com/alamin72b/MegLog-A-Full-Stack-Learning-Journey/blob/main/docs/walkthrough/planning.md)
+- 📗 [Requirements Document](https://github.com/alamin72b/MegLog-A-Full-Stack-Learning-Journey/blob/main/docs/planning/requirements.md)
 
 ### 💬 3. Ask Questions
 Open an **Issue** on this repo if you’re curious about the code, process, or tools — I’ll answer as I learn.
@@ -120,7 +155,7 @@ cd MegLog-A-Full-Stack-Learning-Journey
    cd ../frontend
    npm install
    ```
-2. Configure your **.env** file with:
+2. Configure your **.env** file:
 
    ```
    MONGO_URI=<your_mongodb_connection_string>
@@ -174,5 +209,3 @@ See the [LICENSE](https://github.com/alamin72b/MegLog-A-Full-Stack-Learning-Jour
 
 
 Made with ❤️ by **[alamin72b](https://github.com/alamin72b)**
-
-
