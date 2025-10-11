@@ -187,6 +187,44 @@ Once complete, link it here:
 
 ---
 
+
+## 📚 Resources
+
+### 🎥 YouTube Videos
+
+Here are some great videos that helped me understand the **Planning & Requirement Analysis** phase more deeply:
+
+* [**Software Engineering – Requirement Analysis**](https://www.youtube.com/watch?v=KP0U3I-f9-Y)
+  *A clear breakdown of how requirement analysis fits into the software development lifecycle.*
+
+* [**SDLC Step 1 – Requirement Gathering & Analysis**](https://youtu.be/i9dBHAjhaCM?si=loeK91Le8MR6DVbJ)
+  *Explains what to focus on during requirement gathering and how to document needs effectively.*
+
+* [**How to Write Software Requirements (SRS Document)**](https://www.youtube.com/watch?v=0zjQHrkZ_70)
+  *Practical advice for writing structured, professional requirements.*
+
+---
+
+### 🧰 Tools & Templates
+
+* 🧱 **[requirements.md template](../../docs/planning/requirements.md)** — My working requirements document for MedLog
+* 🧩 **[Lucidchart](https://www.lucidchart.com)** — For drawing diagrams, workflows, and system designs
+* ✍️ **Markdown Guide** — [Learn Markdown](https://www.markdownguide.org/basic-syntax/) for writing clean docs
+
+---
+
+### 📖 Recommended Reading
+
+* 📘 *IEEE Guide to Requirements Specification* — Deep dive into how professionals write requirement docs
+* 🗂️ *Atlassian’s Guide to SDLC Phases* — Learn how large teams structure planning and development
+* 🧑‍💻 *Real-World Project Planning* (freeCodeCamp article) — Practical examples of requirement analysis
+
+---
+
+> 💡 *This section will keep growing as I discover more helpful videos, articles, and tools while building MedLog.*
+
+---
+
 ## ✅ Summary
 
 **Goal:** Learn how to define your app before coding it.
